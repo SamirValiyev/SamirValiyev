@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Samir</h1>
-<h3 align="center">I am a Junior .NET Developer from Azerbaijan</h3>
+<h3 align="center">I am a Junior Full-Stack Developer from Azerbaijan</h3>
 
 
 
