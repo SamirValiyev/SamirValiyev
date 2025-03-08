@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Samir Valiyev</h1>
-<h3 align="center">I am a Junior Full-Stack Developer from Azerbaijan</h3>
+<h3 align="center">I am a .NET Developer from Azerbaijan</h3>
 
 
 
