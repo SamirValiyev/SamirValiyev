@@ -7,6 +7,7 @@
 <p align="left">
 <a href="https://linkedin.com/in/samir-vəliyev-a86943245" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Samir Vəliyev" height="30" width="40" /></a>
 <a href="https://facebook.com/sZfcRgWGkyjBXW9H" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Samir Vəliyev" height="30" width="40" /></a>
+<a href="https://medium.com/@vliyevsamir385" target="_blank"><img align="center" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAQlBMVEVHcEwAAAAAAAAAAAAAAAAAAABxcXGkpKSUlJQeHh5/f3/Q0ND////e3t6rq6taWlrHx8e0tLQsLCw+Pj7u7u62trYTUwO8AAAABnRSTlMAS8D5/5dwkjMFAAAA1klEQVR4AX3TRQLEIAwFUNoGhypz/6vOJ9SFrAIPFyFE03b0iK5tBELSR0j0o89oRPuNrei+sRNUiYJKa20slXAoqBOSDyG4klqkns6oURNLapD2F+x7VA2cjvqOkwWOZfq+oPLTjiN0zh3nibHHGnYcgJpo8cTosIQdZ4pQJIoRpf6MjncTiRFL8H1/oE3YjTEFF972gZR3k2jH/oILL2kfNl2QsBu7Yl7eeEGF8oq8vLSi56NLA+d88D/ofmW5K5vqy5Upj56VqD+T6gOrPs3qo659hz8m8RNl7wTa8QAAAABJRU5ErkJggg==" alt="Samir Vəliyev" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
