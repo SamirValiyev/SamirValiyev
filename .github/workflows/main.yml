@@ -1,8 +1,11 @@
 name: Generate Snake
 
 on:
+  # Her 6 saatdə bir çalışır
   schedule:
     - cron: "0 */6 * * *"
+  
+  # Manuel tetikleme imkanı verir
   workflow_dispatch:
 
 jobs:
@@ -10,26 +13,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Repo'yu klonla
       - uses: actions/checkout@v4
 
-      - uses: Platane/snk@master
-        id: snake-gif
+      # Yılan animasyonunu oluştur
+      - uses: Platane/snk@v3
         with:
-          github_user_name: SamirValiyev  # <-- burayı kendi kullanıcı adınla güncelle
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: SamirValiyev  # GitHub kullanıcı adını doğru yaz!
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.gif
 
+      # Git durumunu kontrol et (debug amaçlı)
       - name: Git Status (Debug)
         run: git status
 
-      - name: Push changes
+      # Değişiklikleri output branch'ine gönder
+      - name: Push changes to output branch
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: output
           force: true
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      # GitHub Pages'e deploy et (output branch'ten)
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
